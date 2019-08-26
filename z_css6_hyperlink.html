@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Hyperlinks</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        a:link{
+            color: red;
+        }
+        a:visted{
+            color: green;
+        }
+        a:hover{
+            color: pink;
+        }
+        div:hover{
+            background-color: yellow;
+            font-size: 1.2em;
+        }
+        table{
+            width: 300px;
+        }
+        th{
+            background: darkgreen;
+            color: white;
+        }
+        th, td{
+            text-align: center;
+            padding: 5px;
+            border: 1px solid #ddd;
+        }
+        tr:nth-child(odd){
+            background-color: lightblue;
+            color:#fff;
+        }
+        textarea{
+            border: 1px solid #888;
+            overflow-x: auto;
+            max-width: 280px;
+            height: 300px;
+        }
+
+
+    </style>
+
+
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#1">Services</a></li>
+        <li><a href="#2">About</a></li>
+        <li><a href="#3">Contact</a></li>
+    </ul>
+
+    <div>Example 1</div>
+    <div>Example 2</div>
+    <div>Example 3</div>
+    <div>Example 4</div>
+
+    <br>
+    <hr>
+    <br>
+
+    <table>
+        <tr>
+            <th>First</th>
+            <th>Last</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Lawrence</td>
+            <td>Sve</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>Joe</td>
+            <td>33</td>
+        </tr>
+        <tr>
+            <td>Mike</td>
+            <td>Jones</td>
+            <td>25</td>
+            </tr>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+<!-- Overflow -->
+
+    <textarea>Hello World, just some boring text about nothing at all.</textarea>
+
+
+</body>
